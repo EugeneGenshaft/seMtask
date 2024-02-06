@@ -5,3 +5,11 @@ Console.WriteLine("напиши число a");
 int numbera = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("напиши число b");
 int numberb = Convert.ToInt32(Console.ReadLine());
+
+if (numbera==numberb * numberb) {
+    Console.WriteLine("zaebis");
+    }
+else
+{
+    Console.WriteLine("huinya");
+};
