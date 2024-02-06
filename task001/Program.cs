@@ -5,4 +5,4 @@
 Console.WriteLine("pishi chislo");
 int number = Convert.ToInt32(Console.ReadLine());
 int square = number * number;
-Console.WriteLine(square);
+Console.WriteLine($"poluchaetsa {number} v kvadrate = {square}");
